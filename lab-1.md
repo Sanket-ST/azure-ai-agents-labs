@@ -79,9 +79,13 @@ In this task, you will create a Microsoft Foundry resource, initialize an AI Pro
 
    ![](./media/new/8.png)
 
-1. Copy the **Project endpoint (1)** and **Project API key (2)** and save them in **Notepad** for later use.
+1. On the New Foundry page, if you see a pop up **Welcome to the new Microsoft Foundry** click on **X**.
 
-   ![](./media/new/9.png)
+   ![](./media/new/L1T1S12.png)
+
+1. Copy the **API Key (1)** and **Project endpoint (2)** and save them in **Notepad** for later use.
+
+   ![](./media/new/L1T1S13.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
@@ -96,7 +100,7 @@ In this task, you will deploy a large language model (LLM) and an embedding mode
 
 1. In the **Microsoft Foundry** portal, select **Build (1)** from the top left corner, click **Models (2)** from left pane and select **Deploy a base model (3)**.
 
-    ![](./media/new/10.png)
+    ![](./media/new/L1T2S1.png)
 
 1. In the **Model** page, search for **gpt-4.1 (1)** and select **gpt-4.1 (2)** from the results.
 
@@ -118,11 +122,11 @@ In this task, you will deploy a large language model (LLM) and an embedding mode
 
 1. Under **gpt-4.1**, select the **Details (1)** tab from top and copy the **Target URI (2)** and save it in **Notepad** for later use.
 
-   ![](./media/new/a5.png)
+   ![](./media/new/L1T2S6.png)
 
 1. From the left navigation pane, click **Models (1)** and select **Deploy a base model (2)**.
 
-   ![](./media/new/n1.png)
+   ![](./media/new/L1T2S7.png)
 
 1. In the **Model** page, search for **text-embedding-3-large (1)** and select **text-embedding-3-large (2)** from the results.
 
@@ -134,7 +138,7 @@ In this task, you will deploy a large language model (LLM) and an embedding mode
 
 1. From the left navigation pane, click **Models (1)** and ensure both the **Models (2)** are deployed successfully.
 
-   ![](./media/new/a6.png)
+   ![](./media/new/L1T2S10.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.

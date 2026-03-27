@@ -21,7 +21,7 @@ In this task, you will build a simple AI Agent that processes data and generates
 
 1. In the notebook interface, click **Select kernel (1)** in the top-right corner and choose **venv (Python 3.X.X) (2)** from the available options.
 
-   ![](./media/oct-azure-aiagent-lab1-10.png)
+   ![](./media/L2T2S2.png)
 
 1. Run the first cell to import necessary libraries and load environment variables for working with Azure AI Projects. This setup enables secure authentication and interaction with Azure AI services.
 

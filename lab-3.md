@@ -53,9 +53,9 @@ In this task, you will create an **Azure AI Search index** to store vectorized r
 
    ![](./media/new/h11.png)
 
-1. On the **Overview (1)** page of the Search Service, click **Import data(new) (2)**.
+1. On the **Overview (1)** page of the Search Service, click **Import data (2)**.
 
-    ![](./media/idn.png)
+    ![](./media/L3T1S10.png)
 
 1. Select **Azure Blob Storage** as the data source.
 
@@ -120,7 +120,7 @@ In this task, you will create an **Azure AI Search index** to store vectorized r
 
 1. To add a new connection, go to **Connected resources (1)** and then click on **Add connection (2)**.
 
-   ![](./media/ag45.png)
+   ![](./media/new/L3T1S22.png)
 
 1. In **Choose a connection** pop up window, select **Azure AI Search (1)** and click on **Continue (2)**.
 
