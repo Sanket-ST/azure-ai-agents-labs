@@ -79,7 +79,7 @@ In this task, you will create a Microsoft Foundry resource, initialize an AI Pro
 
    ![](./media/new/8.png)
 
-1. On the New Foundry page, if you see a pop up **Welcome to the new Microsoft Foundry** click on **X**.
+1. On the New Foundry page, if you see a pop-up **Welcome to the new Microsoft Foundry** click on **X**.
 
    ![](./media/new/L1T1S12.png)
 
@@ -98,7 +98,7 @@ In this task, you will create a Microsoft Foundry resource, initialize an AI Pro
 
 In this task, you will deploy a large language model (LLM) and an embedding model within your Microsoft Foundry project. These models will be used for AI-driven applications and vector-based search capabilities in upcoming labs.
 
-1. In the **Microsoft Foundry** portal, select **Build (1)** from the top left corner, click **Models (2)** from left pane and select **Deploy a base model (3)**.
+1. In the **Microsoft Foundry** portal, select **Build (1)** from the top right corner, click **Models (2)** from left pane and select **Deploy a base model (3)**.
 
     ![](./media/new/L1T2S1.png)
 
