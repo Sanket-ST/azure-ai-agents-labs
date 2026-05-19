@@ -1,6 +1,12 @@
 # Lab 1: Setup AI Project and perform Chat Completion from VS Code
 
-## Estimated Duration: 120 Minutes
+### Estimated Duration: 120 Minutes
+
+## Scenario
+
+Contoso Health Services plans to establish a centralized AI development environment for building intelligent AI-powered applications. Before developing AI agents, the organization must configure an AI Project in Microsoft Foundry, deploy the required AI models, and validate connectivity from Visual Studio Code.
+
+In this lab, you will act as an AI Engineer responsible for setting up the AI environment and validating the integration by performing a chat completion call from Visual Studio Code.
 
 ## Overview
 
