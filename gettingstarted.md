@@ -2,15 +2,21 @@
 
 ## Overall Estimated Duration: 4 Hours
 
+## Lab Scenario
+
+Contoso Health Services is modernizing its customer support and policy analysis systems using **AI-powered** solutions built on **Azure AI Agent Service**. The organization wants to develop intelligent **AI agents** capable of assisting employees and customers with health plan recommendations, policy searches, automated reporting, and compliance validation.
+
+As part of the AI modernization initiative, Contoso’s engineering team will use **Microsoft Foundry**, **Azure AI Search**, and the **Azure AI Agent Service SDK** to build, orchestrate, and manage AI agents. Throughout this lab, you will simulate the role of AI engineers responsible for designing scalable AI-driven workflows that automate business processes and improve decision-making across the organization.
+
 ## Overview
 
-This hands-on lab offers a comprehensive introduction to building AI agents using the Azure AI Agent Service SDK. You will begin by creating AI agents with the Azure AI Agent Service and orchestrate them in a multi-agent system. Throughout the lab, you will explore techniques for agent collaboration, automation, and task execution. By the end of this experience, you will have hands-on expertise in designing, deploying, and managing AI agents to build intelligent, scalable, and efficient AI-driven applications.
+This hands-on lab offers a comprehensive introduction to building **AI agents** using the **Azure AI Agent Service SDK**. You will begin by creating AI agents with the Azure AI Agent Service and orchestrate them in a multi-agent system. Throughout the lab, you will explore techniques for agent collaboration, automation, and task execution. By the end of this experience, you will have hands-on expertise in designing, deploying, and managing AI agents to build intelligent, scalable, and efficient AI-driven applications.
 
 ## Objective 
 
-This lab is aimed at giving learners hands-on experience with Azure OpenAI resources, deploying and exploring models using the Completions and Chat playgrounds, and experimenting with prompts, parameters, and code generation. By completing this lab
+This lab is designed to provide learners with hands-on experience in building AI-powered applications using Microsoft Foundry, Azure AI Agent Service SDK, and Azure AI Search. Participants will configure AI projects, deploy and interact with AI models, build intelligent AI agents, implement Retrieval Augmented Generation (RAG), and orchestrate multiple agents to automate complex business workflows.
 
-Participants will learn:
+By the end of this hands-on lab, you will be able to:
 
 1. **Set Up AI Project and Perform Chat Completion from VS Code:** In this hands-on lab will guide you through setting up the environment for building AI Agents. You will begin by configuring an AI Project in Microsoft Foundry, deploying a Large Language Model (LLM) and embedding models. Next, you will connect Visual Studio Code to the AI Project and perform a chat completion call to validate the setup, ensuring seamless integration and functionality.
 
@@ -21,7 +27,12 @@ Participants will learn:
 4. **Develop a Multi-Agent System:** In this hands-on exercise, you will build a multi-agent system where four AI Agents collaborate to generate reports on health plan documents. You will create a Search Agent to retrieve policy information from Azure AI Search, a Report Agent to generate detailed reports, a Validation Agent to ensure compliance with specified requirements, and an Orchestrator Agent to manage communication between all agents. This lab will provide practical experience in designing and coordinating AI agents for complex tasks.
 
 ## Prerequisites
-Participants should have:
+
+Before you begin, ensure you have:
+
+1. An active **Microsoft Azure subscription** to deploy and manage Azure resources.
+
+1. An **Azure Entra ID user account** with sufficient permissions to create and manage resources within the Azure subscription.
 
 1. **Visual Studio Code (VS Code):** Proficiency in using Visual Studio Code for coding, debugging, and managing extensions for various programming languages and frameworks.
 
@@ -45,11 +56,11 @@ Together, these components create a secure, scalable, and modular architecture, 
  
 ## Explanation of Components
 
-- **Microsoft Foundry:** A cloud-based platform for developing, deploying, and managing AI models. It allows users to configure AI projects, deploy Large Language Models (LLMs), and integrate embedding models to enhance AI applications.
-- **Azure AI Search:** A vector-based search service that enables Retrieval-Augmented Generation (RAG) by indexing and retrieving relevant documents to improve AI-generated responses.
-- **Azure AI Services**: A collection of cloud-based AI services that allow developers and data scientists to build intelligent applications, offering pre-built and customizable APIs and models for tasks like speech, vision, language, and knowledge.
-- **LLMs and Embeddings:** Understanding Large Language Models (LLMs), their capabilities, and how embeddings are used for text similarity, search, and knowledge retrieval in AI applications.
-- **Storage Account:** An Azure Storage Account is a cloud resource that provides scalable, secure, and durable storage for data objects like blobs, files, queues, and tables. It’s used to store structured and unstructured data. You create it in Azure, choose redundancy/replication options, and access data via APIs, SDKs, or portals.
+- **Microsoft Foundry:** A cloud-based platform for building, deploying, and managing AI applications and models. It enables users to create AI projects, deploy and manage AI models, and integrate AI capabilities into applications using a unified development experience.
+- **Azure AI Search:** A cloud-based search and vector database service that enables Retrieval-Augmented Generation (RAG) by indexing, storing, and retrieving relevant content to improve AI-generated responses.
+- **Azure AI Services:** A collection of cloud-based AI services and APIs that help developers build intelligent applications with capabilities such as language understanding, speech, vision, document intelligence, and knowledge extraction.
+- **LLMs and Embeddings:** Large Language Models (LLMs) are AI models capable of understanding and generating natural language. Embeddings are vector representations of text used to enable semantic search, similarity matching, and knowledge retrieval in AI applications.
+- **Storage Account:** An Azure Storage Account provides secure, scalable, and durable cloud storage for blobs, files, queues, and tables. In AI solutions, it is commonly used to store documents, datasets, and application files used by AI services and agents.
 
 # Getting Started with the lab
  
@@ -69,13 +80,13 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
  
-  ![Explore Lab Resources](./media/envtb.png)
+  ![Explore Lab Resources](./media/new/env-tab-new.png)
  
 ## Utilizing the Split Window Feature
  
-For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
+For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
  
-  ![Use the Split Window Feature](./media/agg4a.png)
+  ![Use the Split Window Feature](./media/new/split-window-new.png)
  
 ## Managing Your Virtual Machine
  
@@ -85,7 +96,7 @@ Feel free to **Start, Restart, or Stop (2)** your virtual machine as needed from
 
 ## Lab Guide Zoom In/Zoom Out
  
-To adjust the zoom level for the environment page, click the **A↕: 100%** icon located next to the timer in the lab environment.
+To adjust the zoom level for the environment page, click the **A↕** icon located next to the timer in the lab environment.
 
 ![](./media/GS1.png)  
 
