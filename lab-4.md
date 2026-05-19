@@ -141,7 +141,15 @@ In this task, you will create the Search, Report, and Validation Agents to retri
 
 ## Summary
 
-In this lab, you developed a multi-agent system using Microsoft Foundry, where multiple AI agents collaborate to retrieve, generate, and validate health plan reports. You implemented agent orchestration using Azure AI Agent Service and Semantic Kernel to coordinate agent interactions and ensure accurate, compliant outputs.
+In this lab, you accomplished the following:
+
+- Built a multi-agent system using Microsoft Foundry and Semantic Kernel
+- Created specialized AI agents: Search Agent, Report Agent, and Validation Agent
+- Connected agents to Azure AI Search to retrieve health plan policy information
+- Generated structured health plan reports using GPT-4.1
+- Validated generated reports for required compliance details, including exclusions
+- Executed the multi-agent workflow for multiple health plans and reviewed generated outputs
+- Verified end-to-end orchestration of agents working together to produce accurate reports
 
 ## You have successfully completed the Hands-on lab.
 
