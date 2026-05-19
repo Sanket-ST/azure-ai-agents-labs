@@ -52,7 +52,7 @@ Together, these components create a secure, scalable, and modular architecture, 
 
 ## 🖼️ Architecture Diagram
 
-![Architecture Diagram](./media/new/azure-ai-agents-arch-diag.png)
+![Architecture Diagram](./media/new/azure-ai-agents-arch-diag-01.png)
  
 ## 🔍 Explanation of Components
 
