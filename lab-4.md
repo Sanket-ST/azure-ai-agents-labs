@@ -1,6 +1,12 @@
 # Lab 4: Develop a multi-agent system
 
-## Estimated Duration: 30 Minutes
+### Estimated Duration: 30 Minutes
+
+## Scenario
+
+Contoso Health Services wants to automate the generation and validation of health plan reports by using multiple specialized AI agents that collaborate together to complete complex workflows.
+
+In this lab, you will act as an AI Engineer and develop a multi-agent system consisting of a Search Agent, Report Agent, Validation Agent, and Orchestrator Agent. These agents will collaborate to retrieve policy information, generate reports, validate compliance requirements, and coordinate workflow execution across the system.
 
 ## Overview
 
