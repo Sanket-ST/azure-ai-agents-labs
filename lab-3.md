@@ -1,6 +1,12 @@
 # Lab 3: Build a RAG Agent
 
-## Estimated Duration: 60 Minutes
+### Estimated Duration: 60 Minutes
+
+## Scenario
+
+Contoso Health Services maintains a large collection of health policy documents, benefits guides, and compliance manuals. Employees often struggle to quickly locate accurate information across these documents.
+
+In this lab, you will act as an AI Engineer and build a Retrieval-Augmented Generation (RAG) AI Agent using Azure AI Search as the vector database. The agent will retrieve relevant document content and generate contextual responses grounded in enterprise health plan documentation.
 
 ## Overview
 
