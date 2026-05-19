@@ -75,7 +75,7 @@ In this task, you will create an **Azure AI Search index** to store vectorized r
    |Authenticate using managed identity|**Enable** **(4)**|
    |Managed identity type|**System-assigned** **(5)**|
 
-   ![](./media/new/g5.png)
+   ![](./media/new/connect-to-data-new.png)
 
 1. On **Vectorize your text** tab, enter the following details and click on **Next (7):**
 
