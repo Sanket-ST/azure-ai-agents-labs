@@ -2,17 +2,17 @@
 
 ### Estimated Duration: 30 Minutes
 
-## Scenario
+## 📘 Scenario
 
 Contoso Health Services receives frequent requests from employees and customers to compare health insurance plans. Manually reviewing and comparing plan information is time-consuming and inefficient.
 
 In this lab, you will act as an AI Engineer and build a simple AI Agent capable of analyzing health plan data and generating bar chart visualizations to compare healthcare benefits, coverage, and costs.
 
-## Overview
+## 📖 Overview
 
 In this lab, you will learn how to build a simple AI Agent that processes data and generates a bar chart comparing different health benefit plans. This AI Agent leverages Azure AI services to analyze and visualize data efficiently.
 
-## Objective
+## 🎯 Objective
 
 In this lab, you will complete the following tasks:
 
@@ -48,7 +48,7 @@ In this task, you will build a simple AI Agent that processes data and generates
 
    ![](./media/new/f11.png)
 
-## Summary
+## 🧾 Summary
 
 In this lab, you accomplished the following:
 
