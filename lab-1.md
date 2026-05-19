@@ -54,9 +54,9 @@ In this task, you will create a Microsoft Foundry resource, initialize an AI Pro
 
    ![](./media/new/L1T1S6.png)
 
-1. Under **Job function roles**, search for **Azure AI User (1)**, select **Azure AI User (2)**, and then select **Next (3)**.
+1. Under **Job function roles**, search for **Foundry User (1)**, select **Foundry User (2)**, and then select **Next (3)**.
 
-   ![](./media/new/L1T1S7.png)
+   ![](./media/new/foundry-user-select.png)
 
 1. On the **Add role assignment** page, 
 
@@ -69,7 +69,7 @@ In this task, you will create a Microsoft Foundry resource, initialize an AI Pro
 
 1. Finally, click **Review + assign** twice to complete the assignment.
 
-   ![](./media/new/L1T1S9.png)
+   ![](./media/new/foundry-user-assign.png)
 
 1. On the **Overview** pane, click on **Go to Foundry portal** to navigate to the **Microsoft Foundry** portal.
 
@@ -82,6 +82,10 @@ In this task, you will create a Microsoft Foundry resource, initialize an AI Pro
 1. On the New Foundry page, if you see a pop-up **Welcome to the new Microsoft Foundry** click on **X**.
 
    ![](./media/new/L1T1S12.png)
+
+1. If you are not already inside your project, navigate to the **All projects** page in the Foundry portal and select your **project**.
+
+   ![](./media/new/select-foundry-project.png)
 
 1. Copy the **API Key (1)** and **Project endpoint (2)** and save them in **Notepad** for later use.
 
@@ -317,9 +321,9 @@ In this task, you will configure the necessary permissions for the Azure AI Sear
 
    ![](./media/new/e7.png)
 
-1. Under **Job function roles**, search for **Azure AI Project Manager (1)**, select **Azure AI Project Manager (2)**, and then select **Next (3)**.
+1. Under **Job function roles**, search for **Foundry Project Manager (1)**, select **Foundry Project Manager (2)**, and then select **Next (3)**.
 
-   ![](./media/new/f1.png)
+   ![](./media/new/foundry-project-manager-select.png)
 
 1. On the **Add role assignment** page, 
 
@@ -333,7 +337,7 @@ In this task, you will configure the necessary permissions for the Azure AI Sear
    
 1. Click **Review + assign** twice to finalize the role assignment.
 
-   ![](./media/new/f3.png)
+   ![](./media/new/foundry-project-manager-assign.png)
 
 1. Follow steps from **31** to **34**, and assign the **Cognitive Services OpenAI Contributor** role to the **ODL_User <inject key="Deployment ID" enableCopy="false"></inject>**.
 
@@ -369,7 +373,11 @@ In this task, you will install the required dependencies, configure a virtual en
 
    ![](./media/L1T4S1-1912.png)
 
-2. Go to **File (1)** and click **Open Folder... (2)**.
+1. Once the IDE opens, if you see the ***Welcome to VS Code*** sign-in pop-up for GitHub, simply close the window by clicking the **X** in the upper-right corner.
+
+   ![](./media/new/vsc-welcome-window-close.png)
+
+1. Go to **File (1)** and click **Open Folder... (2)**.
 
    ![](./media/ag37.png) 
 
@@ -448,8 +456,8 @@ In this task, you will install the required dependencies, configure a virtual en
 
 1. In the `sample.env` file, provide the following environment variables using the values retrieved from your Microsoft Foundry project:
 
-   - `AIPROJECT_ENDPOINT`: Provide the **Project endpoint** value you have copied in Step 12 of Task 1.
-   - `API_KEY`: Provide the **Key** value of the **gpt-4.1** model you have copied in Step 12 of Task 1.
+   - `AIPROJECT_ENDPOINT`: Provide the **Project endpoint** value you have copied in Step 13 of Task 1.
+   - `API_KEY`: Provide the **Key** value of the **gpt-4.1** model you have copied in Step 13 of Task 1.
    - `CHAT_MODEL_ENDPOINT`: Provide the **Target URI** of the **gpt-4.1** model you have copied in Step 6 of Task 2.
    - `CHAT_MODEL`: **gpt-4.1**
 
