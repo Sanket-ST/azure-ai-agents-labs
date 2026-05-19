@@ -12,7 +12,7 @@ As part of the AI modernization initiative, Contoso’s engineering team will us
 
 This hands-on lab offers a comprehensive introduction to building **AI agents** using the **Azure AI Agent Service SDK**. You will begin by creating AI agents with the Azure AI Agent Service and orchestrate them in a multi-agent system. Throughout the lab, you will explore techniques for agent collaboration, automation, and task execution. By the end of this experience, you will have hands-on expertise in designing, deploying, and managing AI agents to build intelligent, scalable, and efficient AI-driven applications.
 
-## Objective 
+## Objectives
 
 This lab is designed to provide learners with hands-on experience in building AI-powered applications using Microsoft Foundry, Azure AI Agent Service SDK, and Azure AI Search. Participants will configure AI projects, deploy and interact with AI models, build intelligent AI agents, implement Retrieval Augmented Generation (RAG), and orchestrate multiple agents to automate complex business workflows.
 
