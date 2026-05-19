@@ -1,6 +1,6 @@
 # Hands-On-Lab: Microsoft Azure AI Agents
 
-## Overall Estimated Duration: 4 Hours
+### Overall Estimated Duration: 4 Hours
 
 ## Lab Scenario
 
