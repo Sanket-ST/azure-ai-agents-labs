@@ -2,17 +2,17 @@
 
 ### Overall Estimated Duration: 4 Hours
 
-## Lab Scenario
+## 📘 Lab Scenario
 
 Contoso Health Services is modernizing its customer support and policy analysis systems using **AI-powered** solutions built on **Azure AI Agent Service**. The organization wants to develop intelligent **AI agents** capable of assisting employees and customers with health plan recommendations, policy searches, automated reporting, and compliance validation.
 
 As part of the AI modernization initiative, Contoso’s engineering team will use **Microsoft Foundry**, **Azure AI Search**, and the **Azure AI Agent Service SDK** to build, orchestrate, and manage AI agents. Throughout this lab, you will simulate the role of AI engineers responsible for designing scalable AI-driven workflows that automate business processes and improve decision-making across the organization.
 
-## Overview
+## 📖 Lab Overview
 
 This hands-on lab offers a comprehensive introduction to building **AI agents** using the **Azure AI Agent Service SDK**. You will begin by creating AI agents with the Azure AI Agent Service and orchestrate them in a multi-agent system. Throughout the lab, you will explore techniques for agent collaboration, automation, and task execution. By the end of this experience, you will have hands-on expertise in designing, deploying, and managing AI agents to build intelligent, scalable, and efficient AI-driven applications.
 
-## Objectives
+## 🎯 Objectives
 
 This lab is designed to provide learners with hands-on experience in building AI-powered applications using Microsoft Foundry, Azure AI Agent Service SDK, and Azure AI Search. Participants will configure AI projects, deploy and interact with AI models, build intelligent AI agents, implement Retrieval Augmented Generation (RAG), and orchestrate multiple agents to automate complex business workflows.
 
@@ -26,7 +26,7 @@ By the end of this hands-on lab, you will be able to:
 
 4. **Develop a Multi-Agent System:** In this hands-on exercise, you will build a multi-agent system where four AI Agents collaborate to generate reports on health plan documents. You will create a Search Agent to retrieve policy information from Azure AI Search, a Report Agent to generate detailed reports, a Validation Agent to ensure compliance with specified requirements, and an Orchestrator Agent to manage communication between all agents. This lab will provide practical experience in designing and coordinating AI agents for complex tasks.
 
-## Prerequisites
+## ⚙️ Prerequisites
 
 Before you begin, ensure you have:
 
@@ -44,17 +44,17 @@ Before you begin, ensure you have:
 
 1. **System Design & Multi-Agent Coordination:** Understanding AI agent architectures, designing retrieval, validation, and orchestration agents, and coordinating multi-agent interactions.
 
-## Architecture 
+## 🏗️ Architecture 
 
 This architecture diagram shows the Standard Agent Setup in Azure, where different resources work together to build and run AI-powered solutions. At the top, Microsoft Foundry acts as the central control point for managing resources, governance, and policies, and serves as the main workspace for developing, testing, and deploying AI agents.
 Supporting Foundry are essential Azure services. AI Search enables intelligent search and indexing of large volumes of structured or unstructured data. AI Services provides pre-built AI capabilities like natural language processing, vision, and speech recognition. A Storage Account supplies scalable, reliable, and secure storage for datasets, logs, and model artifacts, making it the backbone of data management in this setup.
 Together, these components create a secure, scalable, and modular architecture, enabling enterprises to efficiently build, deploy, and manage AI agents or copilots in Microsoft Foundry.
 
-## Architecture Diagram
+## 🖼️ Architecture Diagram
 
 ![Architecture Diagram](./media/new/arch.png)
  
-## Explanation of Components
+## 🔍 Explanation of Components
 
 - **Microsoft Foundry:** A cloud-based platform for building, deploying, and managing AI applications and models. It enables users to create AI projects, deploy and manage AI models, and integrate AI capabilities into applications using a unified development experience.
 - **Azure AI Search:** A cloud-based search and vector database service that enables Retrieval-Augmented Generation (RAG) by indexing, storing, and retrieving relevant content to improve AI-generated responses.
@@ -62,7 +62,7 @@ Together, these components create a secure, scalable, and modular architecture, 
 - **LLMs and Embeddings:** Large Language Models (LLMs) are AI models capable of understanding and generating natural language. Embeddings are vector representations of text used to enable semantic search, similarity matching, and knowledge retrieval in AI applications.
 - **Storage Account:** An Azure Storage Account provides secure, scalable, and durable cloud storage for blobs, files, queues, and tables. In AI solutions, it is commonly used to store documents, datasets, and application files used by AI services and agents.
 
-# Getting Started with the lab
+# 🚀 Getting Started with the lab
  
 Welcome to your Azure AI agents workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
 
@@ -100,7 +100,7 @@ To adjust the zoom level for the environment page, click the **A↕** icon locat
 
 ![](./media/GS1.png)  
 
-## Let's Get Started with Azure Portal
+## ☁️ Let's Get Started with Azure Portal
  
 1. In the LabVM, click on the **Azure portal** shortcut of the Microsoft Edge browser, which is created on the desktop.
  
@@ -152,7 +152,7 @@ To adjust the zoom level for the environment page, click the **A↕** icon locat
 1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Cancel** to skip the tour.
 -->
 
-## Support Contact
+## 📞 Support Contact
  
 The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
  
