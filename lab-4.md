@@ -2,13 +2,13 @@
 
 ### Estimated Duration: 30 Minutes
 
-## Scenario
+## 📘 Scenario
 
 Contoso Health Services wants to automate the generation and validation of health plan reports by using multiple specialized AI agents that collaborate together to complete complex workflows.
 
 In this lab, you will act as an AI Engineer and develop a multi-agent system consisting of a Search Agent, Report Agent, Validation Agent, and Orchestrator Agent. These agents will collaborate to retrieve policy information, generate reports, validate compliance requirements, and coordinate workflow execution across the system.
 
-## Overview
+## 📖 Overview
 
 In this lab, you will build a **multi-agent system** that includes four AI agents working together to generate and validate reports on health plan documents:
 
@@ -23,7 +23,7 @@ Orchestration is a key part of multi-agentic systems since the agents that we cr
 
 We'll use the Azure AI Agent Service to create the Search, Report, and Validation agents. However, to create the Orchestrator Agent, we'll use Semantic Kernel. The Semantic Kernel library provides out-of-the-box functionality for orchestrating multi-agent systems.
 
-## Objective
+## 🎯 Objective
 
 In this lab, you will complete the following task:
 
@@ -139,7 +139,7 @@ In this task, you will create the Search, Report, and Validation Agents to retri
     
       ![](./media/new/k11.png) 
 
-## Summary
+## 🧾 Summary
 
 In this lab, you accomplished the following:
 
@@ -151,6 +151,6 @@ In this lab, you accomplished the following:
 - Executed the multi-agent workflow for multiple health plans and reviewed generated outputs
 - Verified end-to-end orchestration of agents working together to produce accurate reports
 
-## You have successfully completed the Hands-on lab.
+## 🎉 You have successfully completed the Hands-on lab!
 
 In this **Hands-On-Lab: Microsoft Azure AI Agents**, you explored the capabilities of Azure AI services by building various AI agents and multi-agent systems. You learned how to create simple AI agents, implement Retrieval-Augmented Generation (RAG) agents, and develop multi-agent systems that collaborate to achieve complex tasks. By leveraging Azure AI Agent Service, Microsoft Foundry, and Semantic Kernel, you gained practical experience in building intelligent applications that can analyze data, generate insights, and ensure compliance with specified requirements.
