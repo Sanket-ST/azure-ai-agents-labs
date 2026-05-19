@@ -1,12 +1,18 @@
 # Lab 3: Build a RAG Agent
 
-## Estimated Duration: 60 Minutes
+### Estimated Duration: 60 Minutes
 
-## Overview
+## 📘 Scenario
+
+Contoso Health Services maintains a large collection of health policy documents, benefits guides, and compliance manuals. Employees often struggle to quickly locate accurate information across these documents.
+
+In this lab, you will act as an AI Engineer and build a Retrieval-Augmented Generation (RAG) AI Agent using Azure AI Search as the vector database. The agent will retrieve relevant document content and generate contextual responses grounded in enterprise health plan documentation.
+
+## 📖 Overview
 
 In this lab, you will build an AI Agent powered by **Retrieval-Augmented Generation (RAG)** to extract insights from health plan documents. Using **Azure AI Search** as a vector database, you will store and retrieve document embeddings to enable context-aware and accurate responses. This hands-on experience will help you understand how to implement RAG-based solutions and integrate Azure AI Search for improved document-driven interactions.
 
-## Objectives
+## 🎯 Objectives
 
 In this lab, you will complete the following tasks:
 
@@ -75,7 +81,7 @@ In this task, you will create an **Azure AI Search index** to store vectorized r
    |Authenticate using managed identity|**Enable** **(4)**|
    |Managed identity type|**System-assigned** **(5)**|
 
-   ![](./media/new/g5.png)
+   ![](./media/new/connect-to-data-new.png)
 
 1. On **Vectorize your text** tab, enter the following details and click on **Next (7):**
 
@@ -179,9 +185,16 @@ In this task, you will build an AI Agent using **Retrieval-Augmented Generation 
 
    > **Note:** Here's an example of what your output is likely to see; however, the precise recommendation could vary.
    
-## Summary
+## 🧾 Summary
 
-In this lab, you built a Retrieval-Augmented Generation (RAG) AI Agent using Microsoft Foundry. You created an Azure AI Search index to store vectorized health plan documents and integrated it with an AI agent to retrieve relevant content and generate accurate, context aware responses.
+In this lab, you accomplished the following:
+
+- Created and configured an Azure AI Search index using blob data from a Storage Account
+- Uploaded and indexed health plan documents for vector-based retrieval
+- Configured Azure AI Search integration with Microsoft Foundry using managed identity authentication
+- Created and connected a RAG-enabled AI Agent using Azure AI Search and GPT-4.1
+- Queried health plan documents using the AI Agent to generate context-aware responses
+- Demonstrated Retrieval-Augmented Generation (RAG) for accurate document-based AI responses
 
 ### You have successfully completed the lab. Click **Next >>** to continue to the next lab.
 
