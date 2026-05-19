@@ -50,7 +50,14 @@ In this task, you will build a simple AI Agent that processes data and generates
 
 ## Summary
 
-In this lab, you created and executed a simple AI Agent using Microsoft Foundry to analyze health plan data and generate a bar chart visualization, demonstrating basic agent setup and usage.
+In this lab, you accomplished the following:
+
+- Built a simple AI Agent using Microsoft Foundry
+- Configured and initialized the AIProjectClient using environment-based authentication
+- Processed health plan data using the AI agent
+- Generated a bar chart visualization comparing different health benefit plans
+- Saved and reviewed the output visualization as an image file
+- Demonstrated basic AI agent execution and result generation using Microsoft Foundry
 
 ### You have successfully completed the lab. Click **Next >>** to continue to the next lab.
 
