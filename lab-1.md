@@ -517,11 +517,15 @@ In this task, you will install the required dependencies, configure a virtual en
 
 ## Summary
 
-In this lab, you have accomplished the following:
-- Created a Microsoft Foundry Resource.
-- Deployed an LLM and embedding models.
-- Established connectivity from VS Code to the AI Project.
-- Performed a simple Chat Completion call.
+In this lab, you accomplished the following:
+
+- Created and configured a Microsoft Foundry resource and AI Project
+- Deployed the `gpt-4.1` and `text-embedding-3-large` models in Microsoft Foundry
+- Created and configured an Azure AI Search service and enabled managed identities
+- Assigned the necessary roles and permissions for Microsoft Foundry and Azure AI Search integration
+- Configured Visual Studio Code with a Python virtual environment and installed the required dependencies
+- Authenticated to Azure and configured environment variables for AI Project connectivity
+- Executed a Chat Completion request from a Jupyter Notebook to validate the AI environment setup
 
 ### You have successfully completed the lab. Click **Next >>** to continue to the next lab.
 
